@@ -1,3 +1,8 @@
+.member-card__info__icon:hover {
+  scale: 110%;
+  cursor: pointer;
+}
+
 /* makes sizing simpler */
 *,
 *::before,
@@ -30,4 +35,131 @@ svg,
 video {
   display: block;
   max-width: 100%;
+}
+
+body {
+  font-family: "Montserrat";
+  animation-duration: 3s;
+  animation-name: fade-in;
+  background-color: #006494;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0%;
+  }
+}
+body to {
+  opacity: 100%;
+}
+
+.container {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.contents {
+  display: grid;
+  grid-template: auto auto auto/1fr;
+  justify-items: center;
+  height: 100%;
+  padding: 2rem 0;
+}
+.contents__header {
+  font-size: 4rem;
+  margin-bottom: 8rem;
+  -webkit-text-stroke-width: 0.1875rem;
+  -webkit-text-stroke-color: var(--white);
+}
+.contents__team {
+  display: grid;
+  justify-items: center;
+  row-gap: 1rem;
+  margin-bottom: 4rem;
+}
+.contents__guests {
+  display: grid;
+  justify-items: center;
+  row-gap: 1rem;
+}
+
+.header-s {
+  font-size: 3rem;
+  -webkit-text-stroke-width: 0.1875rem;
+  -webkit-text-stroke-color: var(--white);
+}
+
+.member-card {
+  display: grid;
+  align-items: end;
+  width: 15rem;
+  height: 15rem;
+  background-color: #13293D;
+  background-size: cover;
+  border-radius: 2rem;
+}
+.member-card__info {
+  display: grid;
+  grid-template: auto auto/auto;
+  align-content: center;
+  background-color: rgba(0, 0, 0, 0.377);
+  border-radius: 0rem 0rem 2rem 2rem;
+  padding: 0.25rem 1rem;
+  -webkit-backdrop-filter: blur(4rem);
+          backdrop-filter: blur(4rem);
+}
+.member-card__info__text {
+  text-align: center;
+  padding: 0.25rem 0 0 0;
+  font-weight: 500;
+}
+.member-card__info__icons {
+  display: grid;
+  grid-template: auto/1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.member-card__info__icon {
+  height: 2rem;
+  width: 2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.miffix {
+  background-image: url("../../../assets/images/miffix.png");
+}
+
+.enragedhybrid {
+  background-image: url("../../../assets/images/rage.png");
+}
+
+.voidquail {
+  background-image: url("../../../assets/images/void.jpg");
+  background-position-y: 70%;
+}
+
+.lhoke7598 {
+  background-image: url("../../../assets/images/lhoke.png");
+}
+
+.trustmeiexist {
+  background-image: url("../../../assets/images/trust.png");
+  background-position-x: 50%;
+}
+
+.hypnobun {
+  background-image: url("../../../assets/images/hypnobun.png");
+}
+
+.laughingotter13 {
+  background-image: url("../../../assets/images/laughingotter13.png");
+}
+
+.row {
+  display: grid;
+  grid-template: auto/1fr 1fr 1fr;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  justify-items: center;
 }

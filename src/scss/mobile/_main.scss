@@ -1,3 +1,159 @@
 @use "../util/functions" as util;
 @use "../global/variables" as var;
 @use "../global/typography" as fonts;
+
+body {
+    font-family: "Montserrat";
+
+    animation-duration: 3s;
+    animation-name: fade-in;
+
+    background-color: #006494;
+
+    @keyframes fade-in {
+        from {
+            opacity: 0%;
+        }
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+.container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+.contents {
+    display: grid;
+    grid-template: auto auto auto / 1fr;
+    justify-items: center;
+
+    height: 100%;
+
+    padding: util.rem(32) 0;
+
+    &__header {
+        font-size: fonts.$header-main;
+
+        margin-bottom: util.rem(128);
+
+        -webkit-text-stroke-width: 0.1875rem;
+        -webkit-text-stroke-color: var(--white);
+    }
+
+    &__team {
+        display: grid;
+        justify-items: center;
+        row-gap: util.rem(16);
+
+        margin-bottom: util.rem(64);
+    }
+
+    &__guests {
+        display: grid;
+        justify-items: center;
+        row-gap: util.rem(16);
+    }
+}
+
+.header-s {
+    font-size: fonts.$header-sub;
+
+    -webkit-text-stroke-width: 0.1875rem;
+    -webkit-text-stroke-color: var(--white);
+}
+
+.member-card {
+    display: grid;
+    align-items: end;
+
+
+    width: util.rem(240);
+    height: util.rem(240);
+
+    background-color: #13293D;
+    background-size: cover;
+
+    border-radius: util.rem(32);
+
+    &__info {
+        display: grid;
+        grid-template: auto auto / auto;
+        align-content: center;
+
+        background-color: rgba(0, 0, 0, 0.377);
+
+        border-radius: util.rem(0) util.rem(0) util.rem(32) util.rem(32);
+
+        padding: util.rem(4) util.rem(16);
+
+        backdrop-filter: blur(4rem);
+
+        &__text {
+            text-align: center;
+            padding: util.rem(4) 0 0 0;
+
+            font-weight: 500;
+        }
+
+        &__icons {
+            display: grid;
+            grid-template: auto / 1fr 1fr;
+
+            justify-items: center;
+            align-items: center;
+        }
+
+        &__icon {
+            height: util.rem(32);
+            width: util.rem(32);
+
+            transition: all 0.2s ease-in-out;
+        }
+    }
+}
+
+.miffix {
+    background-image: url("../../../assets/images/miffix.png");
+}
+
+.enragedhybrid {
+    background-image: url("../../../assets/images/rage.png");
+}
+
+.voidquail {
+    background-image: url("../../../assets/images/void.jpg");
+    background-position-y: 70%;
+}
+
+.lhoke7598 {
+    background-image: url("../../../assets/images/lhoke.png");
+}
+
+.trustmeiexist {
+    background-image: url("../../../assets/images/trust.png");
+    background-position-x: 50%;
+}
+
+.hypnobun {
+    background-image: url("../../../assets/images/hypnobun.png");
+}
+
+.laughingotter13 {
+    background-image: url("../../../assets/images/laughingotter13.png");
+}
+
+
+.row {
+    display: grid;
+    grid-template: auto / 1fr 1fr 1fr;
+    column-gap: util.rem(16);
+
+    justify-items: center;
+}
