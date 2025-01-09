@@ -3,13 +3,13 @@
   --blue-light: rgb(0, 100, 148);
   --blue-dark: rgb(19, 41, 61);
   --gray-dark: rgb(51, 51, 51);
-  --enragedhybrid: rgb(0, 60, 133);
+  --enragedhybrid: rgba(0, 60, 133, 0.4);
   --hypnobun: rgb(100, 47, 151);
   --laughingotter13: rgb(155, 109, 43);
   --lhoke7598: rgb(26, 42, 96);
-  --miffix: rgb(125, 139, 71);
+  --miffix: rgba(125, 139, 71, 0.6);
   --trustmeiexist: rgb(239, 85, 55);
-  --voidquail: rgb(46, 36, 99);
+  --voidquail: rgba(47, 36, 99, 0.4);
 }
 
 .member-card__info__icon:hover {
@@ -75,7 +75,6 @@ body to {
 
 .contents {
   display: grid;
-  grid-template: auto auto auto/1fr;
   justify-items: center;
   height: 100%;
   padding: 2rem 0 3rem 0;
@@ -89,13 +88,14 @@ body to {
 .contents__team {
   display: grid;
   justify-items: center;
-  row-gap: 1rem;
+  row-gap: 1.25rem;
   margin-bottom: 4rem;
 }
 .contents__guests {
   display: grid;
   justify-items: center;
-  row-gap: 1rem;
+  row-gap: 1.25rem;
+  margin-bottom: 4rem;
 }
 
 .header-s {
@@ -107,14 +107,12 @@ body to {
 .member-card {
   display: grid;
   align-items: end;
-  width: 16.25rem;
-  height: 16.25rem;
+  width: 18.75rem;
+  height: 18.75rem;
   background-color: var(--gray-dark);
   background-size: cover;
   border-radius: 2rem;
-  border-style: solid;
-  border-width: 0.1875rem;
-  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0.5rem 0.25rem 0 rgba(0, 0, 0, 0.4);
   transition: all 0.2s ease-in-out;
   overflow: hidden;
 }
@@ -129,7 +127,7 @@ body to {
 }
 .member-card__info__text {
   text-align: center;
-  padding: 0.25rem 0 0 0;
+  padding: 0.25rem 0;
   font-weight: 500;
   font-size: 1.25rem;
 }
@@ -168,6 +166,15 @@ body to {
   width: 1.5rem;
 }
 
+.row {
+  display: grid;
+  grid-template: auto/1fr 1fr 1fr 1fr 1fr;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  justify-items: center;
+  max-width: 58.375rem;
+}
+
 .enragedhybrid {
   background-image: url("../../../assets/images/enragedhybrid.png");
 }
@@ -177,7 +184,6 @@ body to {
 }
 
 .laughingotter13 {
-  grid-area: 1/3/2/4;
   background-image: url("../../../assets/images/laughingotter13.jpeg");
 }
 
@@ -195,6 +201,7 @@ body to {
 }
 
 .voidquail {
+  grid-area: 1/3/2/4;
   background-image: url("../../../assets/images/voidquail.jpg");
   background-position-y: 70%;
 }
@@ -256,13 +263,4 @@ body to {
 .weirdnessmaster {
   grid-area: 1/4/2/5;
   background-image: url("../../../assets/images/weirdnessmaster.png");
-}
-
-.row {
-  display: grid;
-  grid-template: auto/1fr 1fr 1fr 1fr 1fr;
-  -moz-column-gap: 1rem;
-       column-gap: 1rem;
-  justify-items: center;
-  max-width: 50.75rem;
 }
