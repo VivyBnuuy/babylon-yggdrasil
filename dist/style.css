@@ -1,3 +1,17 @@
+:root {
+  --white: rgb(255, 255, 255);
+  --blue-light: rgb(0, 100, 148);
+  --blue-dark: rgb(19, 41, 61);
+  --gray-dark: rgb(51, 51, 51);
+  --enragedhybrid: rgb(0, 60, 133);
+  --hypnobun: rgb(100, 47, 151);
+  --laughingotter13: rgb(155, 109, 43);
+  --lhoke7598: rgb(26, 42, 96);
+  --miffix: rgb(125, 139, 71);
+  --trustmeiexist: rgb(239, 85, 55);
+  --voidquail: rgb(46, 36, 99);
+}
+
 .member-card__info__icon:hover {
   scale: 110%;
   cursor: pointer;
@@ -41,7 +55,7 @@ body {
   font-family: "Montserrat";
   animation-duration: 3s;
   animation-name: fade-in;
-  background-color: #006494;
+  background-color: var(--blue-dark);
 }
 @keyframes fade-in {
   from {
@@ -93,18 +107,22 @@ body to {
 .member-card {
   display: grid;
   align-items: end;
-  width: 15rem;
-  height: 15rem;
-  background-color: #13293D;
+  width: 16.25rem;
+  height: 16.25rem;
+  background-color: var(--gray-dark);
   background-size: cover;
   border-radius: 2rem;
+  border-style: solid;
+  border-width: 0.1875rem;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.4);
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
 }
 .member-card__info {
   display: grid;
   grid-template: auto auto/auto;
   align-content: center;
-  background-color: rgba(0, 0, 0, 0.377);
-  border-radius: 0rem 0rem 2rem 2rem;
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 0.25rem 1rem;
   -webkit-backdrop-filter: blur(4rem);
           backdrop-filter: blur(4rem);
@@ -113,6 +131,7 @@ body to {
   text-align: center;
   padding: 0.25rem 0 0 0;
   font-weight: 500;
+  font-size: 1.25rem;
 }
 .member-card__info__icons {
   display: grid;
@@ -126,34 +145,91 @@ body to {
   transition: all 0.2s ease-in-out;
 }
 
+.enragedhybrid {
+  background-image: url("../../../assets/images/enragedhybrid.png");
+}
+
+.hypnobun {
+  background-image: url("../../../assets/images/hypnobun.jpeg");
+}
+
+.laughingotter13 {
+  background-image: url("../../../assets/images/laughingotter13.jpeg");
+}
+
+.lhoke7598 {
+  background-image: url("../../../assets/images/Lhoke7598.jpg");
+}
+
 .miffix {
   background-image: url("../../../assets/images/miffix.png");
 }
 
-.enragedhybrid {
-  background-image: url("../../../assets/images/rage.png");
+.trustmeiexist {
+  background-image: url("../../../assets/images/trustmeiexist.png");
+  background-position-x: center;
 }
 
 .voidquail {
-  background-image: url("../../../assets/images/void.jpg");
+  background-image: url("../../../assets/images/voidquail.jpg");
   background-position-y: 70%;
 }
 
-.lhoke7598 {
-  background-image: url("../../../assets/images/lhoke.png");
+.azureberry {
+  background-image: url("../../../assets/images/azureberry.png");
 }
 
-.trustmeiexist {
-  background-image: url("../../../assets/images/trust.png");
-  background-position-x: 50%;
+.azurecurrents {
+  background-image: url("../../../assets/images/azurecurrents.png");
 }
 
-.hypnobun {
-  background-image: url("../../../assets/images/hypnobun.png");
+.chimeradragonfang {
+  background-image: url("../../../assets/images/chimeradragonfang.png");
 }
 
-.laughingotter13 {
-  background-image: url("../../../assets/images/laughingotter13.png");
+.crystalda3h {
+  background-image: url("../../../assets/images/crystalda3h.png");
+}
+
+.dyno {
+  background-image: url("../../../assets/images/dyno.jpg");
+  background-position-y: 80%;
+}
+
+.jonas {
+  background-image: url("../../../assets/images/jonas.jpg");
+}
+
+.kitsunaokami {
+  background-image: url("../../../assets/images/kitsunaokami.png");
+}
+
+.noxkitsune {
+  background-image: url("../../../assets/images/noxkitsune.jpg");
+}
+
+.peaheadpeaheadinc {
+  background-image: url("../../../assets/images/peaheadpeaheadinc.jpg");
+}
+
+.rainheinrik {
+  background-image: url("../../../assets/images/rainheinrik.png");
+}
+
+.skoomasquad {
+  background-image: url("../../../assets/images/skoomasquad.png");
+}
+
+.theunknownetc {
+  background-image: url("../../../assets/images/theunknownetc.jpg");
+}
+
+.vivybnuuy {
+  background-image: url("../../../assets/images/vivybnuuy.png");
+}
+
+.weirdnessmaster {
+  background-image: url("../../../assets/images/weirdnessmaster.png");
 }
 
 .row {

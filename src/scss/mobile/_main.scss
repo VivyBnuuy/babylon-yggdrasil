@@ -8,7 +8,7 @@ body {
     animation-duration: 3s;
     animation-name: fade-in;
 
-    background-color: #006494;
+    background-color: var(--blue-dark);
 
     @keyframes fade-in {
         from {
@@ -73,23 +73,29 @@ body {
     display: grid;
     align-items: end;
 
+    width: util.rem(260);
+    height: util.rem(260);
 
-    width: util.rem(240);
-    height: util.rem(240);
-
-    background-color: #13293D;
+    background-color: var(--gray-dark);
     background-size: cover;
 
     border-radius: util.rem(32);
+
+    border-style: solid;
+    border-width: util.rem(3);
+
+    box-shadow: 0 util.rem(4) util.rem(8) 0 rgba(0, 0, 0, 0.4);
+
+    transition: all 0.2s ease-in-out;
+
+    overflow: hidden;
 
     &__info {
         display: grid;
         grid-template: auto auto / auto;
         align-content: center;
 
-        background-color: rgba(0, 0, 0, 0.377);
-
-        border-radius: util.rem(0) util.rem(0) util.rem(32) util.rem(32);
+        background-color: rgba(0, 0, 0, 0.400);
 
         padding: util.rem(4) util.rem(16);
 
@@ -100,6 +106,7 @@ body {
             padding: util.rem(4) 0 0 0;
 
             font-weight: 500;
+            font-size: fonts.$card;
         }
 
         &__icons {
@@ -119,35 +126,95 @@ body {
     }
 }
 
+// Babylon Team card backgrounds
+.enragedhybrid {
+    background-image: url("../../../assets/images/enragedhybrid.png");
+}
+
+.hypnobun {
+    background-image: url("../../../assets/images/hypnobun.jpeg");
+}
+
+.laughingotter13 {
+    background-image: url("../../../assets/images/laughingotter13.jpeg");
+}
+
+.lhoke7598 {
+    background-image: url("../../../assets/images/Lhoke7598.jpg");
+}
+
 .miffix {
     background-image: url("../../../assets/images/miffix.png");
 }
 
-.enragedhybrid {
-    background-image: url("../../../assets/images/rage.png");
+.trustmeiexist {
+    background-image: url("../../../assets/images/trustmeiexist.png");
+    background-position-x: center;
 }
 
 .voidquail {
-    background-image: url("../../../assets/images/void.jpg");
+    background-image: url("../../../assets/images/voidquail.jpg");
     background-position-y: 70%;
 }
 
-.lhoke7598 {
-    background-image: url("../../../assets/images/lhoke.png");
+// Babylon Guests card backgrounds
+.azureberry {
+    background-image: url("../../../assets/images/azureberry.png");
 }
 
-.trustmeiexist {
-    background-image: url("../../../assets/images/trust.png");
-    background-position-x: 50%;
+.azurecurrents {
+    background-image: url("../../../assets/images/azurecurrents.png");
 }
 
-.hypnobun {
-    background-image: url("../../../assets/images/hypnobun.png");
+.chimeradragonfang {
+    background-image: url("../../../assets/images/chimeradragonfang.png");
 }
 
-.laughingotter13 {
-    background-image: url("../../../assets/images/laughingotter13.png");
+.crystalda3h {
+    background-image: url("../../../assets/images/crystalda3h.png");
 }
+
+.dyno {
+    background-image: url("../../../assets/images/dyno.jpg");
+    background-position-y: 80%;
+}
+
+.jonas {
+    background-image: url("../../../assets/images/jonas.jpg");
+}
+
+.kitsunaokami {
+    background-image: url("../../../assets/images/kitsunaokami.png");
+}
+
+.noxkitsune {
+    background-image: url("../../../assets/images/noxkitsune.jpg");
+}
+
+.peaheadpeaheadinc {
+    background-image: url("../../../assets/images/peaheadpeaheadinc.jpg");
+}
+
+.rainheinrik {
+    background-image: url("../../../assets/images/rainheinrik.png");
+}
+
+.skoomasquad {
+    background-image: url("../../../assets/images/skoomasquad.png");
+}
+
+.theunknownetc {
+    background-image: url("../../../assets/images/theunknownetc.jpg");
+}
+
+.vivybnuuy {
+    background-image: url("../../../assets/images/vivybnuuy.png");
+}
+
+.weirdnessmaster {
+    background-image: url("../../../assets/images/weirdnessmaster.png");
+}
+
 
 
 .row {
