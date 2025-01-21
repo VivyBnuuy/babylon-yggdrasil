@@ -109,8 +109,8 @@ body {
 
         &__icons {
             display: grid;
-            grid-template: auto / util.rem(32) util.rem(32) util.rem(32) util.rem(32) util.rem(32);
-            column-gap: util.rem(4);
+            grid-template: auto / auto auto auto auto auto auto;
+            column-gap: util.rem(8);
 
             justify-items: center;
             justify-content: center;
@@ -126,24 +126,40 @@ body {
     }
 }
 
-.linktree {
+.icon-linktree {
     height: util.rem(24);
     width: util.rem(24);
 }
 
-.deviantart {
+.icon-deviantart {
     height: util.rem(24);
     width: util.rem(24);
 }
 
-.twitch {
+.icon-twitch {
     height: util.rem(24);
     width: util.rem(24);
 }
 
-.kofi {
+.icon-kofi {
     height: util.rem(24);
     width: util.rem(24);
+}
+
+.links-deviantart {
+    margin-left: util.rem(-1);
+}
+
+.links-discord {
+    padding-right: util.rem(4);
+}
+
+.links-kofi {
+    margin-top: util.rem(-1);
+}
+
+.links-twitch {
+    padding-left: util.rem(4);
 }
 
 .row {

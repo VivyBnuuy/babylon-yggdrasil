@@ -133,9 +133,9 @@ body to {
 }
 .member-card__info__icons {
   display: grid;
-  grid-template: auto/2rem 2rem 2rem 2rem 2rem;
-  -moz-column-gap: 0.25rem;
-       column-gap: 0.25rem;
+  grid-template: auto/auto auto auto auto auto auto;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
   justify-items: center;
   justify-content: center;
   align-items: center;
@@ -146,24 +146,40 @@ body to {
   transition: all 0.2s ease-in-out;
 }
 
-.linktree {
+.icon-linktree {
   height: 1.5rem;
   width: 1.5rem;
 }
 
-.deviantart {
+.icon-deviantart {
   height: 1.5rem;
   width: 1.5rem;
 }
 
-.twitch {
+.icon-twitch {
   height: 1.5rem;
   width: 1.5rem;
 }
 
-.kofi {
+.icon-kofi {
   height: 1.5rem;
   width: 1.5rem;
+}
+
+.links-deviantart {
+  margin-left: -0.0625rem;
+}
+
+.links-discord {
+  padding-right: 0.25rem;
+}
+
+.links-kofi {
+  margin-top: -0.0625rem;
+}
+
+.links-twitch {
+  padding-left: 0.25rem;
 }
 
 .row {
