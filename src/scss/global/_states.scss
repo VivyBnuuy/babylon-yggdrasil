@@ -2,10 +2,6 @@
 @use "../global/variables" as var;
 @use "../global/typography" as fonts;
 
-.member-card:hover {
-    
-}
-
 .member-card__info__icon:hover {
     scale: 125%;
     cursor: pointer;
