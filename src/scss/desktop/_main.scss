@@ -43,15 +43,10 @@ body {
     &__header {
         font-size: fonts.$header-main;
 
-        margin-bottom: util.rem(64);
+        margin-bottom: util.rem(128);
 
         -webkit-text-stroke-width: 0.1875rem;
         -webkit-text-stroke-color: var(--white);
-    }
-
-    &__paragraph {
-        font-size: fonts.$paragraph;
-        margin-bottom: util.rem(64);
     }
 
     &__team {
@@ -345,4 +340,6 @@ body {
     font-weight: fonts.$medium;
     text-align: center;
     white-space: nowrap;
+
+    box-shadow: 0 util.rem(2) util.rem(8) 0 rgba(0, 0, 0, 0.4);
   }
