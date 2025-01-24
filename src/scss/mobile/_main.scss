@@ -42,10 +42,15 @@ body {
     &__header {
         font-size: fonts.$header-main;
 
-        margin-bottom: util.rem(128);
+        margin-bottom: util.rem(64);
 
         -webkit-text-stroke-width: 0.1875rem;
         -webkit-text-stroke-color: var(--white);
+    }
+
+    &__paragraph {
+        font-size: fonts.$paragraph;
+        margin-bottom: util.rem(64);
     }
 
     &__team {
@@ -97,7 +102,7 @@ body {
 
         background-color: rgba(0, 0, 0, 0.4);
 
-        padding: util.rem(4) util.rem(16);
+        padding: util.rem(4) 0 0 0;
 
         backdrop-filter: blur(4rem);
 
@@ -112,7 +117,8 @@ body {
         &__icons {
             display: grid;
             grid-template: auto / repeat(6, auto);
-            //column-gap: util.rem(8);
+
+            padding: util.rem(4) 0 util.rem(8) 0;
 
             justify-items: center;
             justify-content: center;
@@ -120,8 +126,10 @@ body {
         }
 
         &__icon {
-            height: util.rem(32);
-            width: util.rem(32);
+            height: util.rem(24);
+            width: util.rem(24);
+
+            margin: 0 util.rem(4);
 
             transition: all 0.2s ease-in-out;
         }
