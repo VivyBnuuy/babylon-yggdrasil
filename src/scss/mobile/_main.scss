@@ -26,6 +26,8 @@ body {
     justify-items: center;
     align-items: center;
 
+    margin-bottom: util.rem(32);
+
     min-height: 100vh;
 }
 
@@ -110,7 +112,7 @@ body {
         &__icons {
             display: grid;
             grid-template: auto / repeat(6, auto);
-            column-gap: util.rem(8);
+            //column-gap: util.rem(8);
 
             justify-items: center;
             justify-content: center;
@@ -270,4 +272,21 @@ body {
     grid-area: 1 / 4 / 2 / 5;
 
     background-image: url("../../../assets/images/weirdnessmaster.png"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+}
+
+.footer {
+    margin-top: util.rem(32);
+}
+
+.signature {
+    opacity: 20%;
+
+    transition: all 0.5s ease-in-out;
+
+    &__img {
+        width: util.rem(128);
+        height: util.rem(128);
+
+        transition: all 0.5s ease-in-out;
+    }
 }

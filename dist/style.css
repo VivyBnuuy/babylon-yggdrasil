@@ -17,6 +17,14 @@
   cursor: pointer;
 }
 
+.signature:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+.signature__img:hover {
+  scale: 110%;
+}
+
 /* makes sizing simpler */
 *,
 *::before,
@@ -70,6 +78,7 @@ body to {
   display: grid;
   justify-items: center;
   align-items: center;
+  margin-bottom: 2rem;
   min-height: 100vh;
 }
 
@@ -134,8 +143,6 @@ body to {
 .member-card__info__icons {
   display: grid;
   grid-template: auto/repeat(6, auto);
-  -moz-column-gap: 0.5rem;
-       column-gap: 0.5rem;
   justify-items: center;
   justify-content: center;
   align-items: center;
@@ -284,4 +291,18 @@ body to {
 .weirdnessmaster {
   grid-area: 1/4/2/5;
   background-image: url("../../../assets/images/weirdnessmaster.png"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+}
+
+.footer {
+  margin-top: 2rem;
+}
+
+.signature {
+  opacity: 20%;
+  transition: all 0.5s ease-in-out;
+}
+.signature__img {
+  width: 8rem;
+  height: 8rem;
+  transition: all 0.5s ease-in-out;
 }

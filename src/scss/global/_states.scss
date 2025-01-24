@@ -6,3 +6,14 @@
     scale: 125%;
     cursor: pointer;
 }
+
+.signature {
+    &:hover {
+        opacity: 100%;
+        cursor: pointer;
+    }
+
+    &__img:hover {
+        scale: 110%;
+    }
+}
