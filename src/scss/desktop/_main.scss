@@ -300,6 +300,7 @@ body {
     }
 }
 
+// Tooltip code tutorial from https://medium.com/free-code-camp/a-step-by-step-guide-to-making-pure-css-tooltips-3d5a3e237346
 [tooltip] {
     position: relative;
 }
@@ -308,7 +309,7 @@ body {
     content: "";
 
     position: absolute;
-    top: util.rem(-6);
+    top: util.rem(-10);
     left: 50%;
     z-index: 100;
 
@@ -326,7 +327,7 @@ body {
 
     position: absolute;
     left: 50%;
-    top: util.rem(-6);
+    top: util.rem(-10);
 
     transform: translateX(-50%)   translateY(-100%);
 
