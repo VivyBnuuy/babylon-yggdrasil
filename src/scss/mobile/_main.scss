@@ -109,7 +109,7 @@ body {
 
         &__icons {
             display: grid;
-            grid-template: auto / auto auto auto auto auto auto;
+            grid-template: auto / repeat(6, auto);
             column-gap: util.rem(8);
 
             justify-items: center;
@@ -142,6 +142,11 @@ body {
 }
 
 .icon-kofi {
+    height: util.rem(24);
+    width: util.rem(24);
+}
+
+.icon-website {
     height: util.rem(24);
     width: util.rem(24);
 }

@@ -133,7 +133,7 @@ body to {
 }
 .member-card__info__icons {
   display: grid;
-  grid-template: auto/auto auto auto auto auto auto;
+  grid-template: auto/repeat(6, auto);
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
   justify-items: center;
@@ -162,6 +162,11 @@ body to {
 }
 
 .icon-kofi {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.icon-website {
   height: 1.5rem;
   width: 1.5rem;
 }
