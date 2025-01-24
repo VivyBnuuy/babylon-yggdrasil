@@ -64,6 +64,7 @@ body {
   animation-duration: 3s;
   animation-name: fade-in;
   background-color: var(--blue-dark);
+  background-image: linear-gradient(rgb(0, 73, 107) 20%, rgb(19, 41, 61) 80%);
 }
 @keyframes fade-in {
   from {
