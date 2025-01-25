@@ -125,7 +125,7 @@ body {
             height: util.rem(24);
             width: util.rem(24);
 
-            margin: 0 util.rem(4);
+            margin: 0 util.rem(5);
 
             transition: all 0.2s ease-in-out;
         }
@@ -186,14 +186,38 @@ body {
 // Babylon Team card backgrounds
 .enragedhybrid {
     background-image: url("../assets/images/enragedhybrid.png"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+
+    &-icons a:nth-of-type(2) {
+        margin-left: util.rem(-2);
+    }
+
+    &-icons a:nth-of-type(3) {
+        margin-left: util.rem(-4);
+    }
+
+    &-icons a:nth-of-type(4) {
+        margin-left: util.rem(-5);
+    }
+
+    &-icons a:nth-of-type(5) {
+        margin-left: util.rem(-3);
+    }
 }
 
 .hypnobun {
     background-image: url("../assets/images/hypnobun.jpeg"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+
+    &-icons a:nth-of-type(2) {
+        margin-left: util.rem(-3);
+    }
 }
 
 .laughingotter13 {
     background-image: url("../assets/images/laughingotter13.jpeg"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+
+    &-icons a:nth-of-type(2) {
+        margin-left: util.rem(-3);
+    }
 }
 
 .lhoke7598 {
@@ -202,11 +226,27 @@ body {
 
 .miffix {
     background-image: url("../assets/images/miffix.png"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+
+    &-icons a:nth-of-type(2) {
+        margin-left: util.rem(-2);
+    }
+
+    &-icons a:nth-of-type(3) {
+        margin-left: util.rem(-5);
+    }
+
+    &-icons a:nth-of-type(4) {
+        margin-left: util.rem(-3);
+    }
 }
 
 .trustmeiexist {
     background-image: url("../assets/images/trustmeiexist.png"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
     background-position-x: center;
+
+    &-icons a:nth-of-type(4), a:nth-of-type(5) {
+        margin-left: util.rem(-3);
+    }
 }
 
 .voidquail {
@@ -214,19 +254,43 @@ body {
 
     background-image: url("../assets/images/voidquail.jpg"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
     background-position-y: 70%;
+
+    &-icons a:nth-of-type(4) {
+        margin-left: util.rem(-3);
+    }
 }
 
 // Babylon Guests card backgrounds
 .azureberry {
     background-image: url("../assets/images/azureberry.png"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+
+    &-icons a:nth-of-type(2) {
+        margin-left: util.rem(-6);
+    }
 }
 
 .azurecurrents {
     background-image: url("../assets/images/azurecurrents.png"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+
+    &-icons a:nth-of-type(3) {
+        margin-left: util.rem(-3);
+    }
 }
 
 .chimeradragonfang {
     background-image: url("../assets/images/chimeradragonfang.png"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+
+    &-icons a:nth-of-type(2) {
+        margin-left: util.rem(-7);
+    }
+
+    &-icons a:nth-of-type(3) {
+        margin-left: util.rem(-6);
+    }
+
+    &-icons a:nth-of-type(4) {
+        margin-left: util.rem(-7);
+    }
 }
 
 .crystalda3h {
@@ -236,18 +300,38 @@ body {
 .dyno {
     background-image: url("../assets/images/dyno.jpg"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
     background-position-y: 80%;
+
+    &-icons a:nth-of-type(2) {
+        margin-left: util.rem(-3);
+    }
 }
 
 .jonas {
     background-image: url("../assets/images/jonas.jpg"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+
+    &-icons a:nth-of-type(2) {
+        margin-left: util.rem(-3);
+    }
 }
 
 .kitsunaokami {
     background-image: url("../assets/images/kitsunaokami.png"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+
+    &-icons a:nth-of-type(2) {
+        margin-left: util.rem(-6);
+    }
+
+    &-icons a:nth-of-type(3) {
+        margin-left: util.rem(-3);
+    }
 }
 
 .noxkitsune {
     background-image: url("../assets/images/noxkitsune.jpg"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+
+    &-icons a:nth-of-type(2) {
+        margin-left: util.rem(-5);
+    }
 }
 
 .peaheadpeaheadinc {
@@ -256,6 +340,10 @@ body {
 
 .rainheinrik {
     background-image: url("../assets/images/rainheinrik.png"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+
+    &-icons a:nth-of-type(2) {
+        margin-left: util.rem(-2);
+    }
 }
 
 .skoomasquad {
@@ -264,12 +352,20 @@ body {
 
 .theunknownetc {
     background-image: url("../assets/images/theunknownetc.jpg"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+
+    &-icons a:nth-of-type(2), a:nth-of-type(3) {
+        margin-left: util.rem(-3);
+    }
 }
 
 .vivybnuuy {
     grid-area: 1 / 2 / 2 / 3;
 
     background-image: url("../assets/images/vivybnuuy.png"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+
+    &-icons a:nth-of-type(5), a:nth-of-type(6) {
+        margin-left: util.rem(-3);
+    }
 }
 
 .weirdnessmaster {
