@@ -393,3 +393,13 @@ body to {
     grid-area: unset;
   }
 }
+@media screen and (max-width: 710px) {
+  .contents__header {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 380px) {
+  .header-s {
+    text-align: center;
+  }
+}
