@@ -131,7 +131,6 @@ body to {
   border-radius: 2rem;
   box-shadow: 0 0.5rem 0.25rem 0 rgba(0, 0, 0, 0.4);
   transition: all 0.2s ease-in-out;
-  overflow: hidden;
 }
 .member-card__info {
   display: grid;
@@ -139,6 +138,7 @@ body to {
   align-content: center;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 0.25rem 0 0 0;
+  border-radius: 0 0 2rem 2rem;
   -webkit-backdrop-filter: blur(4rem);
           backdrop-filter: blur(4rem);
 }
