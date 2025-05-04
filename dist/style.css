@@ -82,6 +82,13 @@ body to {
   opacity: 100%;
 }
 
+.custom-html {
+  display: grid;
+  justify-content: center;
+  background-image: linear-gradient(rgb(0, 73, 107) 20%, rgb(19, 41, 61) 80%);
+  font-family: "Montserrat";
+}
+
 .container {
   display: grid;
   justify-items: center;
@@ -139,8 +146,7 @@ body to {
   background-color: rgba(0, 0, 0, 0.4);
   padding: 0.25rem 0 0 0;
   border-radius: 0 0 2rem 2rem;
-  -webkit-backdrop-filter: blur(4rem);
-          backdrop-filter: blur(4rem);
+  backdrop-filter: blur(4rem);
 }
 .member-card__info__text {
   text-align: center;
@@ -166,14 +172,13 @@ body to {
 .row {
   display: grid;
   grid-template: auto/repeat(5, 1fr);
-  -moz-column-gap: 1rem;
-       column-gap: 1rem;
+  column-gap: 1rem;
   justify-items: center;
   max-width: 58.375rem;
 }
 
 .enragedhybrid {
-  background-image: url("../assets/images/enragedhybrid.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+  background-image: url("https://github.com/VivyBnuuy/babylon-yggdrasil/raw/refs/heads/main/assets/images/enragedhybrid.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
 }
 .enragedhybrid-icons a:nth-of-type(2) {
   margin-left: -0.125rem;
@@ -189,25 +194,25 @@ body to {
 }
 
 .hypnobun {
-  background-image: url("../assets/images/hypnobun.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+  background-image: url("https://github.com/VivyBnuuy/babylon-yggdrasil/raw/refs/heads/main/assets/images/hypnobun.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
 }
 .hypnobun-icons a:nth-of-type(2) {
   margin-left: -0.1875rem;
 }
 
 .laughingotter13 {
-  background-image: url("../assets/images/laughingotter13.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+  background-image: url("https://github.com/VivyBnuuy/babylon-yggdrasil/raw/refs/heads/main/assets/images/laughingotter13.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
 }
 .laughingotter13-icons a:nth-of-type(2) {
   margin-left: -0.1875rem;
 }
 
 .lhoke7598 {
-  background-image: url("../assets/images/Lhoke7598.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+  background-image: url("https://github.com/VivyBnuuy/babylon-yggdrasil/raw/refs/heads/main/assets/images/Lhoke7598.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
 }
 
 .miffix {
-  background-image: url("../assets/images/miffix.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+  background-image: url("https://github.com/VivyBnuuy/babylon-yggdrasil/raw/refs/heads/main/assets/images/miffix.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
 }
 .miffix-icons a:nth-of-type(2) {
   margin-left: -0.125rem;
@@ -220,7 +225,7 @@ body to {
 }
 
 .trustmeiexist {
-  background-image: url("../assets/images/trustmeiexist.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+  background-image: url("https://github.com/VivyBnuuy/babylon-yggdrasil/raw/refs/heads/main/assets/images/trustmeiexist.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
   background-position-x: center;
 }
 .trustmeiexist-icons a:nth-of-type(4), .trustmeiexist a:nth-of-type(5) {
@@ -229,7 +234,7 @@ body to {
 
 .voidquail {
   grid-area: 1/3/2/4;
-  background-image: url("../assets/images/voidquail.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+  background-image: url("https://github.com/VivyBnuuy/babylon-yggdrasil/raw/refs/heads/main/assets/images/voidquail.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
   background-position-y: 70%;
 }
 .voidquail-icons a:nth-of-type(4) {
@@ -237,21 +242,21 @@ body to {
 }
 
 .azureberry {
-  background-image: url("../assets/images/azureberry.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+  background-image: url("https://github.com/VivyBnuuy/babylon-yggdrasil/raw/refs/heads/main/assets/images/azureberry.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
 }
 .azureberry-icons a:nth-of-type(2) {
   margin-left: -0.375rem;
 }
 
 .azurecurrents {
-  background-image: url("../assets/images/azurecurrents.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+  background-image: url("https://github.com/VivyBnuuy/babylon-yggdrasil/raw/refs/heads/main/assets/images/azurecurrents.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
 }
 .azurecurrents-icons a:nth-of-type(3) {
   margin-left: -0.1875rem;
 }
 
 .chimeradragonfang {
-  background-image: url("../assets/images/chimeradragonfang.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+  background-image: url("https://github.com/VivyBnuuy/babylon-yggdrasil/raw/refs/heads/main/assets/images/chimeradragonfang.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
 }
 .chimeradragonfang-icons a:nth-of-type(3) {
   margin-left: -0.375rem;
@@ -261,11 +266,11 @@ body to {
 }
 
 .crystalda3h {
-  background-image: url("../assets/images/crystalda3h.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+  background-image: url("https://github.com/VivyBnuuy/babylon-yggdrasil/raw/refs/heads/main/assets/images/crystalda3h.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
 }
 
 .dyno {
-  background-image: url("../assets/images/dyno.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+  background-image: url("https://github.com/VivyBnuuy/babylon-yggdrasil/raw/refs/heads/main/assets/images/dyno.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
   background-position-y: 80%;
 }
 .dyno-icons a:nth-of-type(2) {
@@ -273,14 +278,14 @@ body to {
 }
 
 .jonas {
-  background-image: url("../assets/images/jonas.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+  background-image: url("https://github.com/VivyBnuuy/babylon-yggdrasil/raw/refs/heads/main/assets/images/jonas.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
 }
 .jonas-icons a:nth-of-type(2) {
   margin-left: -0.1875rem;
 }
 
 .kitsunaokami {
-  background-image: url("../assets/images/kitsunaokami.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+  background-image: url("https://github.com/VivyBnuuy/babylon-yggdrasil/raw/refs/heads/main/assets/images/kitsunaokami.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
 }
 .kitsunaokami-icons a:nth-of-type(2) {
   margin-left: -0.375rem;
@@ -290,45 +295,47 @@ body to {
 }
 
 .noxkitsune {
-  background-image: url("../assets/images/noxkitsune.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+  background-image: url("https://github.com/VivyBnuuy/babylon-yggdrasil/raw/refs/heads/main/assets/images/noxkitsune.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
 }
 .noxkitsune-icons a:nth-of-type(2) {
   margin-left: -0.3125rem;
 }
 
 .peaheadpeaheadinc {
-  background-image: url("../assets/images/peaheadpeaheadinc.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+  background-image: url("https://github.com/VivyBnuuy/babylon-yggdrasil/raw/refs/heads/main/assets/images/peaheadpeaheadinc.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
 }
 
 .rainheinrik {
-  background-image: url("../assets/images/rainheinrik.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+  background-image: url("https://github.com/VivyBnuuy/babylon-yggdrasil/raw/refs/heads/main/assets/images/rainheinrik.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
 }
 .rainheinrik-icons a:nth-of-type(2) {
   margin-left: -0.125rem;
 }
 
+.rfraphide {
+  background-image: url("https://github.com/VivyBnuuy/babylon-yggdrasil/raw/refs/heads/main/assets/images/rfraphide.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+}
+
 .skoomasquad {
-  background-image: url("../assets/images/skoomasquad.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+  background-image: url("https://github.com/VivyBnuuy/babylon-yggdrasil/raw/refs/heads/main/assets/images/skoomasquad.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
 }
 
 .theunknownetc {
-  background-image: url("../assets/images/theunknownetc.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+  background-image: url("https://github.com/VivyBnuuy/babylon-yggdrasil/raw/refs/heads/main/assets/images/theunknownetc.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
 }
 .theunknownetc-icons a:nth-of-type(2), .theunknownetc a:nth-of-type(3) {
   margin-left: -0.1875rem;
 }
 
 .vivybnuuy {
-  grid-area: 1/2/2/3;
-  background-image: url("../assets/images/vivybnuuy.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+  background-image: url("https://github.com/VivyBnuuy/babylon-yggdrasil/raw/refs/heads/main/assets/images/vivybnuuy.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
 }
 .vivybnuuy-icons a:nth-of-type(5), .vivybnuuy a:nth-of-type(6) {
   margin-left: -0.1875rem;
 }
 
 .weirdnessmaster {
-  grid-area: 1/4/2/5;
-  background-image: url("../assets/images/weirdnessmaster.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
+  background-image: url("https://github.com/VivyBnuuy/babylon-yggdrasil/raw/refs/heads/main/assets/images/weirdnessmaster.webp"), radial-gradient(circle, rgb(19, 41, 61) 0%, rgb(0, 100, 148) 90%);
 }
 
 .footer {
@@ -369,7 +376,7 @@ body to {
   top: -0.625rem;
   transform: translateX(-50%) translateY(-100%);
   background-color: rgb(0, 0, 0);
-  padding: 0.375rem 1.5rem;
+  padding: 0.375rem 1.5rem 0.25rem 1.5rem;
   border-radius: 1rem;
   pointer-events: none;
   opacity: 0;
@@ -384,8 +391,7 @@ body to {
 @media screen and (max-width: 950px) {
   .row {
     grid-template: repeat(3, auto)/auto;
-    -moz-column-gap: 0rem;
-         column-gap: 0rem;
+    column-gap: 0rem;
     row-gap: 1rem;
     max-width: 38.875rem;
   }
